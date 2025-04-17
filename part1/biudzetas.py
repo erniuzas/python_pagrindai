@@ -145,7 +145,7 @@ class Biudzetas:
                 print(irasas)
 
 # Programos pradžia
-def main():
+def run():
     vartotojas = prisijungimo_meniu()  # Prisijungimas arba registracija
     biudzetas = Biudzetas()
 
@@ -187,8 +187,8 @@ def main():
         except ValueError:
             print("Klaida: Prašome įvesti teisingą skaičių.")
 
-if __name__ == "__main__":
-    main()
+
+run()
 
 
 
